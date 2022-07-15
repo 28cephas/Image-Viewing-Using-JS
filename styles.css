@@ -23,6 +23,10 @@ body{
     min-height: 100%;
 }
 
+#source img{
+    cursor: pointer;
+}
+
 #source{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
