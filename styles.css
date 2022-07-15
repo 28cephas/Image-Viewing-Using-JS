@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 80%;
+    margin: auto;
+}
+
+#display-img{
+    position: relative;
+}
+
+.delete:hover{
+    opacity: 1;
+}
+
+#display-img img,
+#source img{
+    width: 100%;
+    min-height: 100%;
+}
+
+#source{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
